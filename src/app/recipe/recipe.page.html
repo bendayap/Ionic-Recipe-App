@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ isMyRecipe ? "My Recipe" : "Recipe List" }}</ion-title>
+    <ion-buttons slot="primary" *ngIf="isMyRecipe">
+      <ion-button routerLink="add-recipe">
+        <ion-icon name="add-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <cdk-virtual-scroll-viewport
+    itemSize="50"
+    minBufferPx="100"
+    maxBufferPx="250"
+    class="ion-content-scroll-host"
+    approxItemHeight="70px"
+    scrollbar-width:
+    none
+  >
+    <!-- <ion-button (click)="onTestBtn()"> Test </ion-button> -->
+    <!-- -------------------------------------------- -->
+    <ion-grid *ngIf="isLoading">
+      <ion-row>
+        <ion-col size="12" size-sm="8" offset-sm="2">
+          <ion-spinner color="primary"></ion-spinner>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid *ngIf="!isLoading && loadedRecipes.length > 0">
+      <ion-row class="filter-bar">
+        <ion-col size="12" size-sm="8" offset-sm="2" class="item-center">
+          <ion-item>
+            <!-- <ion-label>Dish Types:</ion-label> -->
+            <ion-select
+              multiple="true"
+              [(ngModel)]="selectedDishTypes"
+              placeholder="Select type to filter"
+              (ionChange)="onFilterSelected()"
+            >
+              <ion-select-option
+                *ngFor="let dishType of dishTypes"
+                [value]="dishType"
+                >{{ dishType }}</ion-select-option
+              >
+            </ion-select>
+            <ion-button (click)="clearFilter()">Clear Filter</ion-button>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-row>
+      <ion-col size="12" size-sm="8" offset-sm="2" text-center>
+        <ion-grid
+          *ngIf="!isLoading && (!filteredLoadedRecipes || filteredLoadedRecipes.length <= 0)"
+        >
+          <ion-row>
+            <ion-col size="12" size-sm="8" offset-sm="2" text-center>
+              <p>There are no recipes right now, please come back later!</p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid *ngIf="!isLoading && filteredLoadedRecipes.length > 0">
+          <ion-item
+            color="none"
+            lines="none"
+            *ngFor="let recipe of filteredLoadedRecipes"
+          >
+            <ion-card
+              class="recipe-card"
+              [routerLink]="['/', 'recipe', 'recipe-detail', recipe.id]"
+            >
+              <img class="card-img" [alt]="recipe.title" [src]="recipe.image" />
+              <ion-card-header>
+                <ion-card-title>{{recipe.title}}</ion-card-title>
+              </ion-card-header>
+
+              <ion-card-content>
+                <ion-chip *ngFor="let dishType of recipe.dishTypes">
+                  <ion-label>{{ dishType }}</ion-label>
+                </ion-chip>
+              </ion-card-content>
+            </ion-card>
+          </ion-item>
+        </ion-grid>
+      </ion-col>
+    </ion-row>
+  </cdk-virtual-scroll-viewport>
+</ion-content>

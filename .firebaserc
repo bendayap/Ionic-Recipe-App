@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ionic-recipe-app-f5a31"
+  },
+  "targets": {
+    "ionic-recipe-app-f5a31": {
+      "hosting": {
+        "app": [
+          "ionic-recipe-app-f5a31"
+        ]
+      }
+    }
+  }
+}

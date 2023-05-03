@@ -1,0 +1,35 @@
+<ion-app>
+  <ion-menu side="start" contentId="menuContent">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title> Recipe App </ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <!-- <ion-item lines="none" routerLink="/recipe"> -->
+          <ion-item lines="none" (click)="onSwitchToRecipeList()">
+            <ion-icon name="newspaper-outline" slot="start"></ion-icon>
+            <ion-label>Recipe List</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <!-- <ion-item lines="none" routerLink="/recipe"> -->
+          <ion-item lines="none" (click)="onSwitchToMyRecipe()">
+            <ion-icon name="checkbox-outline" slot="start"></ion-icon>
+            <ion-label>My Recipe</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <!-- <ion-menu-toggle>
+          <ion-item lines="none" (click)="onLogout()" button>
+            <ion-icon name="exit" slot="start"></ion-icon>
+            <ion-label>Logout</ion-label>
+          </ion-item>
+        </ion-menu-toggle> -->
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="menuContent"></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipetypes>
+  <dishType>main course</dishType>
+  <dishType>side dish</dishType>
+  <dishType>dessert</dishType>
+  <dishType>appetizer</dishType>
+  <dishType>salad</dishType>
+  <dishType>bread</dishType>
+  <dishType>breakfast</dishType>
+  <dishType>soup</dishType>
+  <dishType>beverage</dishType>
+  <dishType>sauce</dishType>
+  <dishType>marinade</dishType>
+  <dishType>fingerfood</dishType>
+  <dishType>snack</dishType>
+  <dishType>drink</dishType>
+</recipetypes>

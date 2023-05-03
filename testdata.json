@@ -1,0 +1,340 @@
+{
+  "recipes": [
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": true,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 28,
+      "gaps": "no",
+      "preparationMinutes": -1,
+      "cookingMinutes": -1,
+      "aggregateLikes": 992,
+      "healthScore": 45,
+      "creditsText": "pinkwhen.com",
+      "sourceName": "pinkwhen.com",
+      "pricePerServing": 283.4,
+      "extendedIngredients": [
+        {
+          "id": 20081,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "SOLID",
+          "name": "all purpose flour",
+          "nameClean": "wheat flour",
+          "original": "3 Tbsp All purpose flour",
+          "originalName": "All purpose flour",
+          "amount": 3.0,
+          "unit": "Tbsp",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 3.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+            "metric": {
+              "amount": 3.0,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 43212,
+          "aisle": "Meat",
+          "image": "bacon-bits.jpg",
+          "consistency": "SOLID",
+          "name": "bacon bits",
+          "nameClean": "bacon bits",
+          "original": "1/2 cup bacon bits",
+          "originalName": "bacon bits",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 11353,
+          "aisle": "Produce",
+          "image": "russet-or-idaho-potatoes.png",
+          "consistency": "SOLID",
+          "name": "baking potatoes",
+          "nameClean": "russet potato",
+          "original": "4 large baking potatoes (cut and cubed)",
+          "originalName": "baking potatoes (cut and cubed)",
+          "amount": 4.0,
+          "unit": "large",
+          "meta": ["cubed", "(cut and )"],
+          "measures": {
+            "us": { "amount": 4.0, "unitShort": "large", "unitLong": "larges" },
+            "metric": {
+              "amount": 4.0,
+              "unitShort": "large",
+              "unitLong": "larges"
+            }
+          }
+        },
+        {
+          "id": 6080,
+          "aisle": "Canned and Jarred",
+          "image": "stock-cube.jpg",
+          "consistency": "SOLID",
+          "name": "chicken bouillom cubes",
+          "nameClean": "chicken base",
+          "original": "2 chicken bouillom cubes",
+          "originalName": "chicken bouillom cubes",
+          "amount": 2.0,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 2.0, "unitShort": "", "unitLong": "" },
+            "metric": { "amount": 2.0, "unitShort": "", "unitLong": "" }
+          }
+        },
+        {
+          "id": 11291,
+          "aisle": "Produce",
+          "image": "spring-onions.jpg",
+          "consistency": "SOLID",
+          "name": "green onion tops",
+          "nameClean": "spring onions",
+          "original": "green onion tops",
+          "originalName": "green onion tops",
+          "amount": 3.0,
+          "unit": "servings",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 1002030,
+          "aisle": "Spices and Seasonings",
+          "image": "pepper.jpg",
+          "consistency": "SOLID",
+          "name": "ground pepper",
+          "nameClean": "black pepper",
+          "original": "1 Tbsp ground black pepper",
+          "originalName": "ground black pepper",
+          "amount": 1.0,
+          "unit": "Tbsp",
+          "meta": ["black"],
+          "measures": {
+            "us": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" },
+            "metric": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" }
+          }
+        },
+        {
+          "id": 1049,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "fluid-cream.jpg",
+          "consistency": "SOLID",
+          "name": "half-and-half",
+          "nameClean": "half and half",
+          "original": "1 cup of half-and-half",
+          "originalName": "half-and-half",
+          "amount": 1.0,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 1.0, "unitShort": "cup", "unitLong": "cup" },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 10011282,
+          "aisle": "Produce",
+          "image": "red-onion.png",
+          "consistency": "SOLID",
+          "name": "onion",
+          "nameClean": "red onion",
+          "original": "1 medium red onion (chopped)",
+          "originalName": "red onion (chopped)",
+          "amount": 1.0,
+          "unit": "medium",
+          "meta": ["red", "chopped", "()"],
+          "measures": {
+            "us": {
+              "amount": 1.0,
+              "unitShort": "medium",
+              "unitLong": "medium"
+            },
+            "metric": {
+              "amount": 1.0,
+              "unitShort": "medium",
+              "unitLong": "medium"
+            }
+          }
+        },
+        {
+          "id": 1001009,
+          "aisle": "Cheese",
+          "image": "shredded-cheddar.jpg",
+          "consistency": "SOLID",
+          "name": "cheddar cheese",
+          "nameClean": "shredded cheddar cheese",
+          "original": "shredded cheddar cheese",
+          "originalName": "shredded cheddar cheese",
+          "amount": 3.0,
+          "unit": "servings",
+          "meta": ["shredded"],
+          "measures": {
+            "us": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 1056,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "sour-cream.jpg",
+          "consistency": "SOLID",
+          "name": "cream",
+          "nameClean": "sour cream",
+          "original": "sour cream",
+          "originalName": "sour cream",
+          "amount": 3.0,
+          "unit": "servings",
+          "meta": ["sour"],
+          "measures": {
+            "us": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 3.0,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 14412,
+          "aisle": "Beverages",
+          "image": "water.png",
+          "consistency": "LIQUID",
+          "name": "water",
+          "nameClean": "water",
+          "original": "3 cups water",
+          "originalName": "water",
+          "amount": 3.0,
+          "unit": "cups",
+          "meta": [],
+          "measures": {
+            "us": { "amount": 3.0, "unitShort": "cups", "unitLong": "cups" },
+            "metric": {
+              "amount": 709.764,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        }
+      ],
+      "id": 715385,
+      "title": "Slow Cooker Baked Potato Soup",
+      "readyInMinutes": 540,
+      "servings": 3,
+      "sourceUrl": "http://www.pinkwhen.com/slow-cooker-baked-potato-soup-recipe/",
+      "image": "https://spoonacular.com/recipeImages/715385-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Slow Cooker Baked Potato Soup might be a good recipe to expand your main course collection. This recipe serves 3. One portion of this dish contains approximately <b>35g of protein</b>, <b>33g of fat</b>, and a total of <b>884 calories</b>. For <b>$2.83 per serving</b>, this recipe <b>covers 36%</b> of your daily requirements of vitamins and minerals. 992 people were glad they tried this recipe. It is brought to you by Pink When. It is perfect for <b>Autumn</b>. If you have green onion tops, cream, water, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes roughly <b>9 hours</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 96%</b>. This score is excellent. Try <a href=\"https://spoonacular.com/recipes/slow-cooker-baked-potato-soup-569219\">Slow cooker baked potato soup</a>, <a href=\"https://spoonacular.com/recipes/slow-cooker-baked-potato-soup-1399117\">Slow Cooker Baked Potato Soup</a>, and <a href=\"https://spoonacular.com/recipes/slow-cooker-baked-potato-soup-731389\">Slow Cooker Baked Potato Soup</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": ["soup", "lunch", "main course", "main dish", "dinner"],
+      "diets": [],
+      "occasions": ["fall", "winter"],
+      "instructions": "<p>Step 1: Coat the cubed potatoes with the flour and then place in the slow cooker.</p><p>Step 2: Add red onion, bouillon cubes, bacon bits, and pepper over the potatoes.</p><p><ins><ins><ins><iframe width=\"320\" height=\"100\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" allowfullscreen=\"true\" id=\"aswift_0\" name=\"aswift_0\" style=\"max-width: 100%; left: 0px; position: absolute; top: 0px;\"></iframe></ins></ins></ins></p><p>Step 3: Pour water over the mixture and cook on low for 8 hours.</p><p>Step 4: Add half-and-half, stirring well, and cook for another 30 minutes to thicken.</p><p>Step 5: Ladle soup into bowls and serve topped with green onion tops, cheddar cheese, and sour cream.</p>",
+      "analyzedInstructions": [
+        {
+          "name": "Coat the cubed potatoes with the flour and then place in the slow cooker.Step 2",
+          "steps": []
+        },
+        {
+          "name": "Add red onion, bouillon cubes, bacon bits, and pepper over the potatoes.Step 3",
+          "steps": []
+        },
+        {
+          "name": "Pour water over the mixture and cook on low for 8 hours.Step 4",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Add half-and-half, stirring well, and cook for another 30 minutes to thicken.Step 5: Ladle soup into bowls and serve topped with green onion tops, cheddar cheese, and sour cream.",
+              "ingredients": [
+                {
+                  "id": 11291,
+                  "name": "green onions",
+                  "localizedName": "green onions",
+                  "image": "spring-onions.jpg"
+                },
+                {
+                  "id": 1009,
+                  "name": "cheddar cheese",
+                  "localizedName": "cheddar cheese",
+                  "image": "cheddar-cheese.png"
+                },
+                {
+                  "id": 1056,
+                  "name": "sour cream",
+                  "localizedName": "sour cream",
+                  "image": "sour-cream.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "soup",
+                  "localizedName": "soup",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404630,
+                  "name": "ladle",
+                  "localizedName": "ladle",
+                  "image": "ladle.jpg"
+                }
+              ],
+              "length": { "number": 30, "unit": "minutes" }
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/slow-cooker-baked-potato-soup-715385"
+    }
+  ]
+}
